@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(254, 254, 208);
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.snowflake-left {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-left;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-left {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.snowflake-left-2 {
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-left-2;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-left-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.snowflake-left-3 {
+  position: absolute;
+  top: -20px;
+  left: 90px;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-left-3;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-left-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.snowflake-right {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-right;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-right {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.snowflake-right-2 {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-right-2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-right-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.snowflake-right-3 {
+  position: absolute;
+  top: 15px;
+  right: 90px;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation-name: snowfall-right-3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall-right-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100vh);
+  }
+}
+
+.chen {
+  width: 30%;
+  transform: translate(115%, -30%);
+}
+
+.chen:hover {
+  width: 35%;
+  transform: translate(90%, -30%);
+}
