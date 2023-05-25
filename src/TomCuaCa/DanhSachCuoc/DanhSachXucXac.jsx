@@ -38,7 +38,6 @@ export default function DanhSachXucXac(props) {
               <img src='./img/kq-tom.png' alt='' style={{ height: '30px' }} />
             }
           </div>
-            
         </div>
       </div>
       
