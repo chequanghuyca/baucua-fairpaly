@@ -41,7 +41,6 @@ export default function DanhSachXucXac(props) {
         </div>
       </div>
       
-  
       <div className='container' style={{ width: '230px', height: '230px', textAlign:'center', marginTop: '25px'}}>
         <div style={{ position: 'relative' }}>
           <img src='./img/dia.png' alt='' style={{ position: 'absolute', transform: 'translate(-50%, 3%)', width: '100%' }} />
